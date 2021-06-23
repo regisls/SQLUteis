@@ -1,0 +1,1 @@
+for /l %i in (1, 1, 318) do sqlcmd -S localhost\sqlexpress -d Smart4_Mina101 -E -i Smart4_Mina101-%i.sql
