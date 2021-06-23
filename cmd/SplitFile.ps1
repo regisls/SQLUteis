@@ -1,5 +1,5 @@
-$src = "C:\Users\Tecsistel\Documents\Projetos\Smart4\Mina\Database_Script\Smart4_Mina101.sql"
-$dst = "C:\Users\Tecsistel\Documents\Projetos\Smart4\Mina\Database_Script\Smart4_Mina101-{0}.sql"
+$src = "C:\Caminho\do\arquivo\SQL_Grande.sql"
+$dst = "C:\Caminho\do\arquivo\SQL_Parte-{0}.sql"
 $reader = new-object IO.StreamReader($src)
 $count = 1
 $filename = ($dst -f ($count)) 
