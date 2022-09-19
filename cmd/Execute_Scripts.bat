@@ -1,1 +1,1 @@
-for /l %i in (1, 1, 318) do sqlcmd -S localhost\sqlexpress -d Smart4_Mina101 -E -i Smart4_Mina101-%i.sql
+for /l %i in (1, 1, 318) do sqlcmd -S localhost\sqlexpress -d DB_NAME -E -i SQL_SCRIPT-%i.sql
