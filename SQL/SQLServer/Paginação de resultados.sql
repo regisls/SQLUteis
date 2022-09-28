@@ -1,5 +1,5 @@
 /*
-Consulta SQL para fazer paginação dos resultados
+Consulta SQL para fazer paginaÃ§Ã£o dos resultados
 */
 
 declare @pageIndex smallint = 2
